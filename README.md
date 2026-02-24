@@ -1,6 +1,7 @@
 # AI-Prompt-Himanshu Yadav 
 I am a web developer and currently improving a readymade UI. The UI is based on food ordering and delivering at doorstep .
 Act as a professional web developer and create a website with following Details 
+Website Name Foodie's blog
 The menu available for ordering is as follows:
 1. Fast food like Pizzas , burgers.: OTC Pizza , Margerita pizza , Veg medium size burger, cheese burger . 
 2. Drinks : Virgin Mojito, Mocktails , lemonade and other packed soft drinks
