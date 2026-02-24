@@ -17,5 +17,4 @@ set the background of the website as a chef baking cake and beside placed soft d
 create a div and add Home , Menu , Offers, Contact , Login button at the top with the div background as blue.
 and at the bottom of the website reate another div block and in it give our contact details : email.foodservices@getfood.com Customer Care Nuber:1234567898 and our shop address: Rohini Sec 22, Delhi
 Make the website look like a foodie using a good css and gifs. try not make the website colors funky and look like more professional.
-
-Create a simple but professional UI.
+Take your time and Create a simple but professional UI.
