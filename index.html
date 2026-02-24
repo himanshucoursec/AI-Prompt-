@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodie's Blog</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Top Navbar */
+.navbar {
+    background-color: #0d6efd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links button {
+    background: white;
+    color: #0d6efd;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Main Section */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Menu Section */
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.item-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.item-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.price {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 5px;
+}
+
+.add-cart {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Offers */
+.offers {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    background: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h2>Foodie's Blog</h2>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Offers</a>
+        <a href="#">Contact</a>
+        <button>Login</button>
+    </div>
+</div>
+
+<div class="container">
+
+<h1>Our Menu</h1>
+
+<div class="menu">
+
+<!-- Pizza -->
+<div class="item-box">
+    <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143" alt="Pizza">
+    <h3>OTC Pizza</h3>
+    <p>Radius: 15cm</p>
+    <div class="price">
+        <span class="old-price">₹200</span>
+        ₹160
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="item-box">
+    <img src="./pizza.jpg" alt="Pizza">
+    <h3>Margerita Pizza</h3>
+    <p>Radius: 15cm</p>
+    <div class="price">
+        <span class="old-price">₹200</span>
+        ₹160
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<!-- Burgers -->
+<div class="item-box">
+    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" alt="Burger">
+    <h3>Veg Medium Size Burger</h3>
+    <p>Height: 10cm</p>
+    <div class="price">
+        <span class="old-price">₹200</span>
+        ₹160
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="item-box">
+    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" alt="Burger">
+    <h3>Cheese Burger</h3>
+    <p>Height: 10cm</p>
+    <div class="price">
+        <span class="old-price">₹200</span>
+        ₹160
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<!-- Drinks -->
+<div class="item-box">
+    <img src="./Drinks.jpg" alt="Drink">
+    <h3>Virgin Mojito (Regular)</h3>
+    <div class="price">
+        <span class="old-price">₹67</span>
+        ₹50
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="item-box">
+    <img src="./Large drink.jpg" alt="Drink">
+    <h3>Mocktail (Large)</h3>
+    <div class="price">
+        <span class="old-price">₹94</span>
+        ₹70
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="item-box">
+    <img src="https://images.unsplash.com/photo-1582450871972-ab5ca641643d" alt="Drink">
+    <h3>Lemonade (Regular)</h3>
+    <div class="price">
+        <span class="old-price">₹67</span>
+        ₹50
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<!-- Desserts -->
+<div class="item-box">
+    <img src="./images.jpeg" alt="Dessert">
+    <h3>Vanilla</h3>
+    <div class="price">
+        <span class="old-price">₹107</span>
+        ₹80
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="item-box">
+    <img src="./Strawberry.jpeg" alt="Dessert">
+    <h3>Strawberry</h3>
+    <div class="price">
+        <span class="old-price">₹107</span>
+        ₹80
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="item-box">
+    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Dessert">
+    <h3>Chocolate</h3>
+    <div class="price">
+        <span class="old-price">₹107</span>
+        ₹80
+    </div>
+    <button class="add-cart">Add to Cart</button>
+</div>
+
+</div>
+
+<!-- Offers -->
+<div class="offers">
+    <h2>Special Offers</h2>
+    <p>✔ On ordering items above ₹500 – Free Delivery Eligibility.</p>
+    <p>✔ Use Coupon Code <strong>FOOD10</strong> to get extra 10% off.</p>
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Email: email.foodservices@getfood.com</p>
+    <p>Customer Care Number: 1234567898</p>
+    <p>Shop Address: Rohini Sec 22, Delhi</p>
+</div>
+
+</body>
+</html>
